@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(void)
+{
+	int num,fact;
+	printf("Enter the number :");
+	scanf("%d",&num);
+	fact=1;//initialization
+	while(fact<=num)//condition
+	{
+		printf("%d\n",fact*num);//body
+		fact--;//modification
+	}
+
+
+return 0;
+}
